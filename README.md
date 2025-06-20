@@ -88,7 +88,6 @@
 - **✨ Future Enhancements**:
     - User authentication.
     - Weather charts per city.
-    - Export to CSV.
 
 ---
 
