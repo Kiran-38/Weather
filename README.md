@@ -26,36 +26,44 @@
     - `requirements.txt`: Python dependencies.
     - `README.md`: Project documentation.
 
+
 ---
 
-- **🚀 Setup Instructions**:
-    1. **Clone the repository**:
-            ```bash
-            git clone <your_repo_url>
-            cd weather
-            ```
-    2. **Create a virtual environment**:
-            ```bash
-            python3 -m venv weather
-            source weather/bin/activate
-            ```
-    3. **Install dependencies**:
-            ```bash
-            pip install -r requirements.txt
-            ```
-    4. **Set your WeatherAPI key**:
-            - Open `weather_fetcher.py` and replace:
-                ```python
-                api_key = "your_api_key_here"
-                ```
-    5. **Run the fetcher to load data**:
-            ```bash
-            python weather_fetcher.py
-            ```
-    6. **Launch the Streamlit UI**:
-            ```bash
-            streamlit run weather_ui.py
-            ```
+## 🚀 Setup Instructions
+
+1. **Clone this repository**
+   ```bash
+   git clone <your_repo_url>
+   cd weather
+
+
+2. **Create a virtual environment**:
+
+    ```bash
+        python3 -m venv weather
+        source weather/bin/activate
+    ```
+3. **Install dependencies**:
+
+    ```bash
+        pip install -r requirements.txt
+    ```
+4. **Set your WeatherAPI key**:
+     
+    Open `weather_fetcher.py` and replace:
+
+            api_key = "your_api_key_here"
+
+5. **Run the fetcher to load data**:
+
+    ```bash
+        python weather_fetcher.py
+    ```
+6. **Launch the Streamlit UI**:
+
+    ```bash
+        streamlit run weather_ui.py
+    ```
 
 ---
 
